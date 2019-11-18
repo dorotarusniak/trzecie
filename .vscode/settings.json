@@ -8,5 +8,8 @@
     "compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
     "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "[cpp]": {},
-    "git.suggestSmartCommit": false
+    "git.suggestSmartCommit": false,
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
