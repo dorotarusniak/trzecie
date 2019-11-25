@@ -101,3 +101,10 @@ char* TString::insert(size_t pos, const char* c) {
     }
     return ptr;
 }
+
+char* TString::insert(size_t pos, char c) {
+    return insert(pos, string({c}).c_str());
+}
+
+
+

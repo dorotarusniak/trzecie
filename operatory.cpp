@@ -20,3 +20,13 @@ std::istream& operator>>(std::istream& strumien, TString& s) {
     }
     return strumien;
 }
+
+TString operator+(const TString& a, const TString& b) {
+    TString tmp(a);
+    tmp.insert(tmp.size(),b); // b musi być konwertowalne na char* 
+    return tmp;
+}
+
+TString& operator+=(TString& a, const TString& b) {
+    return a = a + b;
+}
